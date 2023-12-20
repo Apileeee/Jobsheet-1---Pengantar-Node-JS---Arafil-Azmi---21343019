@@ -1,0 +1,50 @@
+// Created by 21343019_Arafil Azmi
+
+1.  Jelaskan tentang JavaScript Engine, V8 dan bagaimana perbedaan antara Node.js dan
+    JavaScript Engine pada browser Google Chrome?
+
+    jawaban : 
+
+    JavaScript Engine adalah sebuah komponen perangkat lunak yang digunakan untuk menjalankan kode JavaScript serta menguraikan 
+    mengeksekusi perintah - perintah yang ditulis dalam bahasa pemograman JavaScript. JavaScript engine menerjemahkan
+    kode JavaScript menjadi instruksi mesin yang dapat dijalankan oleh komputer.
+
+    V8 sendiri merupakan salah satu JavaScript Engine yang dikembangkan oleh Google. V8 dikembangkan untuk mengoptimalkan
+    kinerja JavaScript dalam web browser dan juga dapat digunakan sebagai mesin JavaScript di berbagai proyek dan salah satunya
+    termasuk Node.js
+
+    Node.js, di sisi lain, adalah sebuah runtime lingkungan JavaScript yang memungkinkan kita untuk menjalankan kode
+    JavaScript di luar lingkungan web browser. Node.js menggunakan mesin JavaScript V8 untuk menjalankan kode JavaScript 
+    di sisi server, sehingga dapat membuat aplikasi server-side menggunakan JavaScript.
+
+    Perbedaan antara Node.js dan JavaScript Engine di browser Google Chrome adalah sebagai berikut :
+
+    1. Lingkungan Eksekusi
+
+        JavaScript Engine di browser Google Chrome (seperti Chrome's V8) berjalan di 
+        lingkungan browser. Ini digunakan untuk menjalankan kode JavaScript pada halaman 
+        web yang dimuat di browser.
+
+        Node.js adalah sebuah runtime lingkungan yang berjalan di luar browser. Ini memungkinkan untuk menjalankan kode JavaScript 
+        di server atau di lingkungan yang tidak terkait dengan web.
+
+    2. Penggunaan
+
+        JavaScript Engine di browser Chrome digunakan untuk menjalankan kode JavaScript pada halaman web, 
+        memungkinkan interaksi dengan elemen HTML, DOM, dan API web lainnya.
+
+        Node.js digunakan untuk membuat aplikasi server-side, seperti server web, 
+        aplikasi jaringan, dan berbagai jenis aplikasi non-browser yang menjalankan JavaScript.
+
+    3. Lingkup dan Fungsi Tambahan
+
+        JavaScript Engine di browser Chrome terintegrasi dengan browser dan dapat mengakses API dan objek yang berkaitan dengan web, 
+        seperti DOM (Document Object Model).
+
+        Node.js menyediakan banyak modul built-in dan pustaka eksternal untuk memungkinkan pengembang membuat 
+        aplikasi server yang kuat dan beragam.
+
+    Jadi, perbedaan utama antara JavaScript Engine di browser Chrome dan Node.js adalah pada lingkungan eksekusi dan 
+    penggunaan masing-masing. JavaScript Engine di browser Chrome dirancang untuk menjalankan kode di lingkungan web browser, 
+    sementara Node.js adalah runtime yang memungkinkan pengembang menjalankan kode JavaScript di lingkungan server dan berbagai 
+    jenis aplikasi lainnya. Meskipun keduanya menggunakan mesin JavaScript V8 yang sama, fungsionalitas dan tujuan mereka sangat berbeda.
