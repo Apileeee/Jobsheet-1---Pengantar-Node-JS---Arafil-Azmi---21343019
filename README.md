@@ -1,6 +1,6 @@
 # Job Sheet 1 - Pengantar Node JS - Pemrograman Berbasis Jaringan Menggunakan Node.js
 
-## Konsep Utama
+## Konsep Pemmograman Berbasis Jaringan Node.js
 
 Konsep-konsep utama yang dicakup dalam kursus ini meliputi:
 
@@ -38,9 +38,50 @@ Ikuti langkah-langkah berikut untuk menyiapkan lingkungan pengembangan:
 
 6. Alternatifnya, buka pengaturan Environment Variables melalui Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables. Edit variabel pengguna dan sistem untuk menyertakan direktori instalasi Node.js (misalnya, C:\Program Files\nodejs).
 
-### Uji Coba Node.js:
+### Membuat Program Uji Coba Node.js :
 
-- Uji Node.js dengan menjalankan perintah-perintah berikut di command prompt:
+### Buat Folder Proyek:
 
-  ```bash
-  node
+1. Buat folder dengan nama "PBJ1" (atau nama yang Anda pilih) dan simpan di direktori yang diinginkan. Hindari menggunakan spasi dalam nama folder.
+
+### Buka di Visual Studio Code:
+
+- Buka Visual Studio Code dan muat folder yang telah Anda buat.
+
+### Buat Folder Uji:
+
+- Dalam folder yang dibuka, buat folder baru dengan nama "testground" menggunakan Visual Studio Code.
+
+### Buat dan Jalankan Program Sederhana:
+
+1. Buat file baru dengan nama "hello.js" di dalam folder "testground" dan masukkan kode berikut:
+
+    ```javascript
+    console.log('Selamat datang di Node.js!');
+    ```
+
+2. Jalankan file tersebut dan perhatikan keluarannya. Gunakan terminal di Visual Studio Code dengan perintah:
+
+    ```bash
+    node hello.js
+    ```
+
+### Buat Program Berbasis Jaringan:
+
+1. Buat file lain dengan nama "hello-world.js" di folder yang sama dan masukkan kode berikut:
+
+    ```javascript
+    const http = require('http');
+
+    const server = http.createServer((req, res) => {
+      res.writeHead(200, { 'Content-Type': 'text/plain' });
+      res.end('Hello, World!\n');
+    });
+
+    server.listen(3000, '127.0.0.1');
+    console.log('Server berjalan di http://127.0.0.1:3000/');
+    ```
+
+2. Jalankan program dan Anda akan melihat pesan "Server berjalan di http://127.0.0.1:3000/" di konsol.
+
+3. Buka URL yang disediakan di browser untuk melihat pesan "Hello, World!"
