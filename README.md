@@ -57,7 +57,7 @@ Ikuti langkah-langkah berikut untuk menyiapkan lingkungan pengembangan:
 1. Buat file baru dengan nama "hello.js" di dalam folder "testground" dan masukkan kode berikut:
 
     ```javascript
-    console.log('Selamat datang di Node.js!');
+    console.log('Welcome to Node.js!');
     ```
 
 2. Jalankan file tersebut dan perhatikan keluarannya. Gunakan terminal di Visual Studio Code dengan perintah:
